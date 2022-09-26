@@ -1,0 +1,129 @@
+/*----------------
+    RESET
+-----------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------
+    DEBUG
+-----------------*/
+.debug{
+    border: 1px dashed black;
+}
+
+/*----------------
+    COMMON
+-----------------*/
+.margin-header{
+    margin-left: 360px;
+}
+
+#titolo{
+    margin-top: 110px;
+    font-size: 50px;
+}
+
+/*----------------
+    HEADER
+-----------------*/
+.header-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 550px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    display: inline-block;
+}
+
+.nav{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.container-destra{
+    width: 490px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.container-azzurro{
+    height: 737px;
+    background-color: rgb(180, 208, 231);
+}
+
+.container-provagratuita{
+    width: 390px;
+    height: 395px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.contenuto-header{
+    display: flex;
+}
+#annulla-prova{
+margin-top: 35px;
+}
+
+#jumbo{
+    width: 785px;
+    height: 462px;
+    display: inline-block;
+    margin-top: 100px;
+}
+/*----------------
+    MAIN
+-----------------*/
+
+
+.container-pianidropbox{
+    height: 1145px;
+    border: 1px dashed red;
+}
+
+
+
+/*----------------
+    BUTTON
+-----------------*/
+.accedi-button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.inizia-button{
+width: 70px;
+height: 35px;
+background-color: blue;
+border: none;
+color: white;
+margin-left: 20px;
+}
+
+.provagratuita-button{
+width: 245px;
+height: 45px;
+border: none;
+color: white;
+background-color: blue;
+margin-top: 35px;
+}
