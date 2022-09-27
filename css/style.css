@@ -33,6 +33,37 @@
 i{
     margin-top: 10px;
 }
+
+.mini-hr{
+    width: 50px;
+    color: lightgrey;
+    margin-top: 30px;
+}
+
+.margin-plans{
+    margin-left: 20px;
+}
+
+.acquista-ora{
+    margin-top: 25px;
+}
+
+h4{
+    margin-top: 55px;
+}
+
+#enterprise{
+    margin-left: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#strong-enterprise{
+    margin-bottom: 55px;
+    display: block;
+}
 /*----------------
     HEADER
 -----------------*/
@@ -117,6 +148,14 @@ margin-top: 35px;
     margin-top: 50px;
 }
 
+.ul-plans{
+    margin-top: 15px;
+}
+
+.li-plans{
+    margin-top: 28px;
+}
+
 .raw{
     display: flex;
 }
@@ -124,12 +163,14 @@ margin-top: 35px;
 .container-titolo{
     height: 40px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .container-enterprise{
     width: 1000px;
     height: 255px;
     margin-top: 50px;
+    position: relative;
 }
 
 .container-foto{
@@ -148,6 +189,11 @@ margin-top: 35px;
     width: 600px;
     height: 510px;
 }
+
+.col-enterprise{
+    width: 600px;
+    border: 1px dashed red;
+}
 /*----------------
     BUTTON
 -----------------*/
@@ -158,21 +204,21 @@ margin-top: 35px;
 }
 
 .inizia-button{
-width: 70px;
-height: 35px;
-background-color: blue;
-border: none;
-color: white;
-margin-left: 20px;
+    width: 70px;
+    height: 35px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-left: 20px;
 }
 
 .provagratuita-button{
-width: 245px;
-height: 45px;
-border: none;
-color: white;
-background-color: blue;
-margin-top: 35px;
+    width: 245px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: blue;
+    margin-top: 35px;
 }
 
 .partner-button{
@@ -181,3 +227,45 @@ margin-top: 35px;
     border: 1px solid black;
     background-color: white;
 }
+
+.btn-plans{
+    width: 240px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 45px;
+}
+
+.btn-ufficio-vendite
+{
+    width: 240px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 70px;
+}
+
+/*----------------
+   TYPOGRAPHY 
+-----------------*/
+#titolo-plans{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.fa-check{
+    color: blue;
+    margin-top: 30px;
+}
+
+.mese{
+    color: grey;
+    margin-top: 35px;
+}
+
