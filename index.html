@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -45,12 +46,57 @@
     <!---/HEADER-->
 
     <main>
-        <div class="debug container-pianidropbox">
-            <h1>Trova  il buisness che fa per te</h1>
-            <input type="radio">Fatturazione mensile</input>
-            <input type="radio">Fatturazione annuale</input>
+        <div class="margin-main debug container-main">
+            <h1 id="titolo">Trova  il buisness che fa per te</h1>
+            <input type="radio" class="radio">Fatturazione mensile</input>
+            <input type="radio" class="radio">Fatturazione annuale</input>
+
+            <!--PIANI MENSILI-->
+            <div class="raw">
+                <div class="debug col-piano">
+                    <div class="debug container-titolo">
+                        <i class="fa-solid fa-user"></i>
+                        Singolo
+                    </div>
+                </div>
+                <div class="debug col-piano">
+                    <div class="debug container-titolo">
+                        <i class="fa-solid fa-people-group"></i>
+                        Team
+                    </div>
+                </div>
+                <div class="debug col-piano">
+                    <div class="debug container-titolo">
+                        <i class="fa-solid fa-building"></i>
+                        Azienda
+                    </div>
+                </div>
+            </div>
+            <!--/PIANI MENSILI-->
+
+            <!--CONTAINER ENTERPRISE-->
+            <div class="debug container-enterprise">
+                <div class="debug container-titolo">
+                    <i class="fa-solid fa-building"></i>
+                    Team
+                </div>
+            </div>
+            <!--/CONTAINER ENTERPRISE-->
+
+            <!--CONTAINER FOTO + DESCRIZIONE-->
+            <div class="raw">
+                <div class="container-foto">
+                    <img src="img/partner.png" alt="" id="partner">
+                </div>
+                <div class="container-descrizione">
+                    <h2>Entra in contatto con un partner Dropbox</h2>
+                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <button class="partner-button">Trova un partner</button>
+                </div>
+            </div>
+            <!--/CONTAINER FOTO + DESCRIZIONE-->
         </div>
-        </div>
+        
     </main>
 
     

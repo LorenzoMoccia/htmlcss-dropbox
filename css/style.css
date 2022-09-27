@@ -21,11 +21,18 @@
     margin-left: 360px;
 }
 
+.margin-main{
+    margin-left: 460px;
+}
+
 #titolo{
     margin-top: 110px;
     font-size: 50px;
 }
 
+i{
+    margin-top: 10px;
+}
 /*----------------
     HEADER
 -----------------*/
@@ -79,6 +86,7 @@ li{
 .contenuto-header{
     display: flex;
 }
+
 #annulla-prova{
 margin-top: 35px;
 }
@@ -94,13 +102,52 @@ margin-top: 35px;
 -----------------*/
 
 
-.container-pianidropbox{
-    height: 1145px;
+.container-main{
     border: 1px dashed red;
 }
 
+.radio{
+    margin-top: 50px;
+}
 
+.col-piano{
+    width: 300px;
+    height: 950px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
 
+.raw{
+    display: flex;
+}
+
+.container-titolo{
+    height: 40px;
+    text-align: center;
+}
+
+.container-enterprise{
+    width: 1000px;
+    height: 255px;
+    margin-top: 50px;
+}
+
+.container-foto{
+    width: 600px;
+    height: 510px;
+    margin-top: 150px;
+}
+
+.container-descrizione{
+    margin-top: 210px;
+    width: 350px;
+    margin-left: 55px;
+}
+
+#partner{
+    width: 600px;
+    height: 510px;
+}
 /*----------------
     BUTTON
 -----------------*/
@@ -126,4 +173,11 @@ border: none;
 color: white;
 background-color: blue;
 margin-top: 35px;
+}
+
+.partner-button{
+    width: 155px;
+    height: 43px;
+    border: 1px solid black;
+    background-color: white;
 }
