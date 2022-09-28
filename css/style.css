@@ -21,6 +21,9 @@
     margin-left: 360px;
 }
 
+.border{
+    border: 1px solid lightgray;
+}
 .margin-main{
     margin-left: 460px;
 }
@@ -131,14 +134,12 @@ margin-top: 35px;
 /*----------------
     MAIN
 -----------------*/
-
-
-.container-main{
-    border: 1px dashed red;
-}
-
 .radio{
     margin-top: 50px;
+}
+
+.container-main{
+    height: 3350px;
 }
 
 .col-piano{
@@ -164,6 +165,7 @@ margin-top: 35px;
     height: 40px;
     text-align: center;
     margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 }
 
 .container-enterprise{
@@ -192,8 +194,37 @@ margin-top: 35px;
 
 .col-enterprise{
     width: 600px;
-    border: 1px dashed red;
 }
+
+.container-dropbox-buisness{
+    width: 1000px;
+    margin-top: 165px;
+}
+
+.container-photo{
+    display: flex;
+}
+
+.col-photo{
+    margin-left: 70px;
+}
+
+.container-sottotitolo{
+    width: 270px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#buisness-photo{
+    width: 270px;
+    height: 210px;
+    margin-top: 80px;
+}
+
+#raw-sotto{
+    margin-top: 70px;
+}
+
 /*----------------
     BUTTON
 -----------------*/
@@ -251,6 +282,73 @@ margin-top: 35px;
     top: 70px;
 }
 
+/*----------------
+   FOOTER
+-----------------*/
+.container-500{
+    margin-top: 210px;
+    margin-bottom: 150px;
+}
+
+#t500{
+    margin-bottom: 75px;
+}
+
+.container-partner{
+    margin-top: 150px;
+}
+
+.box-partner{
+    width: 630px;
+    height: 630px;
+    display: inline-block;
+}
+
+.box-partner-small{
+    width: 315px;
+    height: 315px;
+}
+
+.prima-raw{
+    display: flex;
+}
+
+#primo-quadrato{
+    background-color: #d1e9cd;
+}
+
+#secondo-quadrato{
+    background-color: #61082b;
+}
+
+#terzo-quadrato{
+    background-color: #0093ce;
+}
+
+#quarto-quadrato{
+    background-color: #ff1c1c;
+}
+
+#quadrato-grande
+{
+    background-color: #f5f5f5;
+}
+
+#a1-box2{
+    background-color: #d5001f;
+}
+
+#a2-box2{
+    background-color: #b4d0e7;
+}
+
+#a3-box2{
+    background-color: #0d2481;
+}
+
+#a4-box2{
+    background-color: #ffd830;
+}
 /*----------------
    TYPOGRAPHY 
 -----------------*/
