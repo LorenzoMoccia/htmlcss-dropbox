@@ -282,6 +282,14 @@ margin-top: 35px;
     top: 70px;
 }
 
+#prova-gratuita{
+    border: none;
+    background-color: white;
+    width: 295px;
+    height: 45px;
+    cursor: pointer;
+}
+
 /*----------------
    FOOTER
 -----------------*/
@@ -348,6 +356,43 @@ margin-top: 35px;
 
 #a4-box2{
     background-color: #ffd830;
+}
+
+.container-azzurrino{
+    height: 360px;
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.container-titolo-azienda{
+    width: 475px;
+    position: absolute;
+    top: 135px;
+}
+
+.container-button{
+    position: absolute;
+    top: 135px;
+    left: 1165px;
+}
+
+.container-faq{
+    height: 725px;
+}
+
+.faq{
+    margin-top: 165px;
+}
+
+.faq-hr{
+    width: 990px;
+    color: lightgrey;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#domande{
+    margin-bottom: 70px;
 }
 /*----------------
    TYPOGRAPHY 
