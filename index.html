@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!--/GOOGLE FONT-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -11,8 +16,8 @@
 <body>
     <!---HEADER-->
     <header>
-        <div class="debug header-container">
-            <div class="debug logo-container">
+        <div class="header-container">
+            <div class="logo-container">
                 <img src="img/logo-small.png" alt="Logo" id="logo">
                 <ul class="nav">
                     <li>Perchè Dropbox</li>
@@ -20,7 +25,7 @@
                     <li>Piani e Prezzi</li>
                 </ul>
             </div>
-            <div class="debug container-destra">
+            <div class="container-destra">
                 <ul class="nav">
                     <li>Supporto</li>
                     <li>Contatta l'ufficio vendite</li>
@@ -46,7 +51,7 @@
     <!---/HEADER-->
 
     <main>
-        <div class="margin-main debug container-main">
+        <div class="margin-main container-main">
             <h1 id="titolo">Trova  il buisness che fa per te</h1>
             <input type="radio" class="radio">Fatturazione mensile</input>
             <input type="radio" class="radio">Fatturazione annuale</input>
@@ -266,18 +271,23 @@
         <!---------------------PARTNERS------------------------->
         
         <!--BOX GRANDE 640PX CONTENITORE-->
-        <div class="debug box-partner">
+        <div class="box-partner">
 
             <!--PRIMA RIGA QUADRATO-->
+            
             <div class="prima-raw">
 
                 <!--PRIMO QUADRATO-->
-                <div class="debug box-partner-small" id="primo-quadrato">
+                <div class="box-partner-small" id="primo-quadrato">
+                    <div class="quadrato-interno">
+                        <img src="img/designit.svg" alt="" id="designit">
+                    </div>
                 </div>
                 <!--/PRIMO QUADRATO-->
 
                 <!--SECONDO QUADRATO-->
-                <div class="debug box-partner-small" id="secondo-quadrato">
+                <div class="box-partner-small" id="secondo-quadrato">
+                    <img src="img/arizona_state_university.svg" alt="" id="arizona">
                 </div>
                 <!--/SECONDO QUADRATO-->
             </div>
@@ -288,12 +298,14 @@
             <div class="prima-raw">
 
                 <!--PRIMO QUADRATO-->
-                <div class="debug box-partner-small" id="terzo-quadrato">
+                <div class="box-partner-small" id="terzo-quadrato">
+                    <img src="img/university_of_florida.svg" alt="" id="florida">
                 </div>
                 <!--/PRIMO QUADRATO-->
 
                 <!--SECONDO QUADRATO-->
-                <div class="debug box-partner-small" id="quarto-quadrato">
+                <div class="box-partner-small" id="quarto-quadrato">
+                    <img src="img/topps.svg" alt="" id="topps">
                 </div>
                 <!--/SECONDO QUADRATO-->
             </div>
@@ -301,24 +313,31 @@
         <!--/BOX GRANDE 640PX CONTENITORE-->
 
         <!--SECONDO BOX GRANDE CENTRALE-->
-        <div class="debug box-partner" id="quadrato-grande">
-
+        <div class="box-partner" id="quadrato-grande">
+            <img src="img/designit.svg" alt="" id="design-b">
+            <hr class="mini-hr" id="hr-quadrato">
+            <div class="contenitore-p-quadrato">
+            <p id="p-quadrato">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime tenetur ratione qui eligendi adipisci? Suscipit numquam id praesentium sapiente non, distinctio maiores, delectus maxime vitae commodi repellat quibusdam dolore minus.</p>
+            <p id="p-quadrato-b">Morten Thomsen, Global IT Lead</p>
+        </div>
         </div>
         <!--/SECONDO BOX GRANDE CENTRALE-->
 
         <!--TERZO BOX GRANDE 640PX CONTENITORE-->
-        <div class="debug box-partner">
+        <div class="box-partner" id="secondo-box">
 
             <!--PRIMA RIGA QUADRATO-->
             <div class="prima-raw">
 
                 <!--PRIMO QUADRATO-->
-                <div class="debug box-partner-small" id="a1-box2">
+                <div class="box-partner-small" id="a1-box2">
+                    <img src="img/world_bicycle_relief.svg" alt="" id="world">
                 </div>
                 <!--/PRIMO QUADRATO-->
 
                 <!--SECONDO QUADRATO-->
-                <div class="debug box-partner-small" id="a2-box2">
+                <div class="box-partner-small" id="a2-box2">
+                    <img src="img/hearst_corp.svg" alt="" id="hearst">
                 </div>
                 <!--/SECONDO QUADRATO-->
             </div>
@@ -329,18 +348,21 @@
             <div class="prima-raw">
 
                 <!--PRIMO QUADRATO-->
-                <div class="debug box-partner-small" id="a3-box2">
+                <div class="box-partner-small" id="a3-box2">
+                    <img src="img/lonely_planet.svg" alt="" id="lonely">
                 </div>
                 <!--/PRIMO QUADRATO-->
 
                 <!--SECONDO QUADRATO-->
-                <div class="debug box-partner-small" id="a4-box2">
+                <div class="box-partner-small" id="a4-box2">
+                    <img src="img/clear_channel.svg" alt="" id="clear">
                 </div>
                 <!--/SECONDO QUADRATO-->
             </div>
         </div>
         <!--/TERZO BOX GRANDE 640PX CONTENITORE-->
         </div>
+    
         <!--------------------/PARTNERS----------------------------->
 
         <!--PORTA DROPBOX NELLA TUA AZIENDA-->
@@ -349,22 +371,22 @@
                 <h1>Porta Dropbox Business nella tua azienda</h1>
             </div>
 
-            <div class="container-button">
+            <div class="container-button-b">
                 <button id="prova-gratuita">Inizia la tua prova gratuita</button>
             </div>
         </div>
         <!--PORTA DROPBOX NELLA TUA AZIENDA-->
 
         <!--CONTAINER DOMANDE FREQUENTI-->
-        <div class="debug container-faq">
+        <div class="container-faq">
             <div class="margin-main faq">
                 <h1 id="domande">Domande frequenti</h1>
                 <hr class="faq-hr">
-                <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
+                <p><strong class="margin-faq-arrow">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>ᐯ</p>
                 <hr class="faq-hr">
-                <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
+                <p><strong class="margin-faq-arrow">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>ᐯ</p>
                 <hr class="faq-hr">
-                <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
+                <p><strong class="margin-faq-arrow">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>ᐯ</p>
                 <hr class="faq-hr">
             </div>
         </div>

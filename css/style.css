@@ -5,13 +5,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*----------------
     DEBUG
 -----------------*/
 .debug{
-    border: 1px dashed black;
+    border: 1px solid rgb(180, 208, 231);
 }
 
 /*----------------
@@ -77,7 +78,7 @@ h2{
 }
 
 .logo-container{
-    width: 550px;
+    width: 580px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -98,7 +99,7 @@ li{
     margin-right: 40px;
 }
 .container-destra{
-    width: 490px;
+    width: 510px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@ li{
 .container-azzurro{
     height: 737px;
     background-color: rgb(180, 208, 231);
+    
 }
 
 .container-provagratuita{
@@ -144,7 +146,7 @@ margin-top: 35px;
 
 .col-piano{
     width: 300px;
-    height: 950px;
+    height: 1030px;
     margin-right: 50px;
     margin-top: 50px;
 }
@@ -306,10 +308,14 @@ margin-top: 35px;
     margin-top: 150px;
 }
 
+.container-partner-grande{
+
+}
 .box-partner{
     width: 630px;
     height: 630px;
     display: inline-block;
+    position: relative;
 }
 
 .box-partner-small{
@@ -319,6 +325,14 @@ margin-top: 35px;
 
 .prima-raw{
     display: flex;
+}
+
+.quadrato-interno{
+    width: 290px;
+    height: 290px;
+    background-color: #a2d39b;
+    margin: auto;
+    margin-top: 15px;
 }
 
 #primo-quadrato{
@@ -340,8 +354,16 @@ margin-top: 35px;
 #quadrato-grande
 {
     background-color: #f5f5f5;
+    position: absolute;
+    top: 4500;
+    left: 638px;
+    
 }
 
+#secondo-box{
+    position: absolute;
+    right: 0;
+}
 #a1-box2{
     background-color: #d5001f;
 }
@@ -358,6 +380,11 @@ margin-top: 35px;
     background-color: #ffd830;
 }
 
+.contenitore-p-quadrato{
+    margin-top: 45px;
+    width: 535px;
+}
+
 .container-azzurrino{
     height: 360px;
     background-color: #b4d0e7;
@@ -370,10 +397,13 @@ margin-top: 35px;
     top: 135px;
 }
 
-.container-button{
+#p-quadrato-b{
+    margin-top: 55px;
+}
+.container-button-b{
     position: absolute;
-    top: 135px;
-    left: 1165px;
+    top: 130px;
+    left: 1160px;
 }
 
 .container-faq{
@@ -395,6 +425,9 @@ margin-top: 35px;
     margin-bottom: 70px;
 }
 
+.margin-faq-arrow{
+    margin-right: 300px;
+}
 .container-finale{
     height: 570px;
     background-color: black;
@@ -407,7 +440,6 @@ margin-top: 35px;
 .col-footer{
     width: 170px;
     height: 230px;
-    border: 1px dashed red;
     margin-left: 100px;
     margin-top: 105px;
     color: white;
@@ -430,6 +462,7 @@ margin-top: 35px;
 .footer-hr{
     width: 125px;
 }
+
 /*----------------
    TYPOGRAPHY 
 -----------------*/
@@ -449,3 +482,66 @@ margin-top: 35px;
     margin-top: 35px;
 }
 
+/*----------------
+   IMAGE PARTNER
+-----------------*/
+#designit{
+    width: 145px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 75px;
+}
+
+#arizona{
+    width: 160px;
+    height: 120px;
+    margin-top: 98px;
+    margin-left: 80px;
+}
+
+#florida{
+    width: 160px;
+    height: 32px;
+    margin-top: 145px;
+    margin-left: 80px;
+}
+
+#topps{
+    width: 160px;
+    height: 75px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#design-b{
+    width: 270px;
+    height: 85px;
+}
+
+#world{
+    width: 160px;
+    height: 75px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#hearst{
+    width: 160px;
+    height: 20px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+#lonely{
+    width: 165px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#clear{
+    width: 160px;
+    height: 110px;
+    margin-top: 105px;
+    margin-left: 80px;
+}
