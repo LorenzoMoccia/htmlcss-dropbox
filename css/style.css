@@ -394,6 +394,42 @@ margin-top: 35px;
 #domande{
     margin-bottom: 70px;
 }
+
+.container-finale{
+    height: 570px;
+    background-color: black;
+}
+
+.container-col{
+    display: flex;
+}
+
+.col-footer{
+    width: 170px;
+    height: 230px;
+    border: 1px dashed red;
+    margin-left: 100px;
+    margin-top: 105px;
+    color: white;
+}
+
+#first-col{
+    margin-left: 360px;
+}
+
+#margin-li{
+    margin-top: 20px;
+}
+
+.container-hr{
+    margin-left: 360px;
+    margin-top: 115px;
+    color: lightgrey;
+}
+
+.footer-hr{
+    width: 125px;
+}
 /*----------------
    TYPOGRAPHY 
 -----------------*/
