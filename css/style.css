@@ -18,6 +18,13 @@
 /*----------------
     COMMON
 -----------------*/
+button{
+    cursor: pointer;
+}
+
+#margin-btn-plans{
+    margin-top: 25px;
+}
 .margin-header{
     margin-left: 360px;
 }
